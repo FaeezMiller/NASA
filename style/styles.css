@@ -1,0 +1,92 @@
+
+                
+.container{
+    color: white;
+    text-align:center;
+    margin: 0 auto;
+    
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+.grid-items:nth-child(1) {
+    grid-column: 1/2;
+}
+.grid-items:nth-child(2) {
+    grid-column: 2/3;
+}
+.grid-items:nth-child(3) {
+    grid-column: 3/4;
+}
+.grid-items:nth-child(4) {
+    grid-column: 4/5;
+}
+.grid-items:nth-child(5) {
+    grid-column: 5/6;
+}
+.grid-items:nth-child(6) {
+    grid-column: 6/7;
+}
+  
+  .NASA{
+    
+    display:block;
+    margin: 100px auto;
+    width: 20%;
+    height: auto;
+    
+  }
+  .CARD{
+    color:white
+  }
+  .planet{
+    width: 50%;
+    height: 60%;
+  }
+  
+  
+  .box {
+   
+    margin: 0 auto;
+    /** THIS ^^^ **/
+    margin-top: 90px;;
+    
+    
+    width:800px;
+    padding:10px;
+  }
+  
+  
+  /*STARS  */
+  html {
+      height: 100%;
+      /* overflow: hidden; */
+  }
+  
+  body {
+      background-color: #111;
+      height: 100%;
+  }
+  
+  /* /* Space */
+  .space {
+      position: absolute;
+      width: 400vw;
+      height: 400vh;
+      top: 50%;
+      left: 50%;
+      margin-top: -200vh;
+      margin-left: -200vw;
+      -webkit-animation: spin 240s linear infinite;
+      animation: spin 240s linear infinite;
+      background-size: 240px;
+      -webkit-backface-visibility: visible;
+      backface-visibility: visible;
+      background-image: url();
+  }
+  
+  
